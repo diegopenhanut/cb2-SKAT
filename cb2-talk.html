@@ -999,7 +999,63 @@ there are a lot of concepts on this slide
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>Materials and Methods</h3>
+<h3>Methods</h3>
+<div class="slideContent" >
+<ul>
+<li>Regions can be defined by genes (in candidate-gene or whole-exome studies) 
+or moving windows across the genome (in whole-genome studies). </li>
+<li>For each region, SKAT analytically calculates a p value for association while
+adjust- ing for covariates.</li>
+<li>Additive genetic model</li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>SKAT as superset or subset</h3>
+<div class="slideContent" >
+<ul>
+<li>dichotomous</li>
+<li><p>no covariants</p>
+
+<p>&ldquo;SKAT can be seen as a generalized C-alpha test that does not require 
+permutation but <strong><em>calculates the p value analytically</em></strong>, allows for covariate 
+adjust- ment, and accommodates either dichotomous or continuous 
+phenotypes&rdquo;</p></li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>SKAT as superset or subset</h3>
+<div class="slideContent" >
+<p>&ldquo;Because SKAT under flat weights is also equivalent to the kernel machine 
+  regression test and because the kernel machine regression test is in turn 
+  related to the SSU test, it follows transitively that SKAT under 
+  <strong>flat weights</strong>, the kernel machine regression test, the SSU test, and 
+  the C-alpha test are all equivalent and special cases of SKAT&rdquo;</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Methods - Simulation of the Type I Error</h3>
+<div class="slideContent" >
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Methods - Statistical Power</h3>
+<div class="slideContent" >
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Methods - Power and Sample-Size Estimation</h3>
 <div class="slideContent" >
 
 </div>
@@ -1056,7 +1112,9 @@ there are a lot of concepts on this slide
 <section data-transition="linear" data-transition-speed="default">
 <h3>SKAT package</h3>
 <div class="slideContent" >
-<div class="fieldError"><span>Unrecognized slide field:</span> <code>http</code><br/></div><pre><code class="r">require(&quot;SKAT&quot;)
+<p><a href="http://cran.r-project.org/web/packages/SKAT/index.html">http://cran.r-project.org/web/packages/SKAT/index.html</a></p>
+
+<pre><code class="r">require(&quot;SKAT&quot;)
 </code></pre>
 
 <pre><code class="r">require(&quot;knitr&quot;)

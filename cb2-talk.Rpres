@@ -119,8 +119,47 @@ Bonus
 ========================================================
 - provide and test estimation of sample size and statistical power
 
-Materials and Methods
+
+Methods
 ========================================================
+- Regions can be defined by genes (in candidate-gene or whole-exome studies) 
+or moving windows across the genome (in whole-genome studies). 
+- For each region, SKAT analytically calculates a p value for association while
+adjust- ing for covariates.
+- Additive genetic model
+
+SKAT as superset or subset
+========================================================
+- dichotomous
+- no covariants
+
+  "SKAT can be seen as a generalized C-alpha test that does not require 
+  permutation but ***calculates the p value analytically***, allows for covariate 
+  adjust- ment, and accommodates either dichotomous or continuous 
+  phenotypes"
+        
+SKAT as superset or subset
+========================================================
+
+  "Because SKAT under flat weights is also equivalent to the kernel machine 
+  regression test and because the kernel machine regression test is in turn 
+  related to the SSU test, it follows transitively that SKAT under 
+  **flat weights**, the kernel machine regression test, the SSU test, and 
+  the C-alpha test are all equivalent and special cases of SKAT"
+  
+
+
+Methods - Simulation of the Type I Error
+========================================================
+
+Methods - Statistical Power
+========================================================
+
+Methods - Power and Sample-Size Estimation
+========================================================
+
+
+
 
 Power Comparison of SKAT and burden tests
 ========================================================
@@ -149,6 +188,7 @@ Power Comparison Based on Simulation and Analytic Estimation
 
 SKAT package
 ========================================================
+
 http://cran.r-project.org/web/packages/SKAT/index.html
 ```{r}
 require("SKAT")
