@@ -149,16 +149,14 @@ SKAT as superset or subset
   
 
 
-Methods - Simulation of the Type I Error
+Methods - Simulation
 ========================================================
 
-Methods - Statistical Power
-========================================================
-
-Methods - Power and Sample-Size Estimation
-========================================================
-
-
+- 10,000 randomly selected sets of 30 kb subregions within a 1 Mb chromosome, 
+- 10,000 sets of genotypes (n x p) from the ***coalescent model***, with p variants on n subjects. 
+Then, for each 10,000 sets of continuous phenotypes
+- 10^8 individual genotype-phenotype data sets
+- only outcomes were randomized for type I error simulation
 
 
 Power Comparison of SKAT and burden tests
